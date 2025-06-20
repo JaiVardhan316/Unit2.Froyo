@@ -15,7 +15,8 @@ function updateTable() {
       froyo[flavorArr[i]] = 1;
     }
   }
-  console.table(froyo);
+  // console.table(froyo);
+  return froyo;
 }
 
-updateTable();
+console.table(updateTable());
